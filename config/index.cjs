@@ -19,24 +19,24 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '程雅迪',
+      name: '范鹏程',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oQcPd6ulP46R4VRx4tJ5YLzK2rDo',
+      id: 'oQcPd6qT5xOVnLFfsJS7lHfRBPr0',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'fNw10wpJ2eoS_qDyKiTus15TrDHAKKgzVkTbklREZF8',
+      useTemplateId: 'ESHt_I2rOp0TSYuKOmgP4BlDAB2KoltzH9_NZQ_e62o',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-10',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '范鹏程', year: '2001', date: '08-26',
+         // type: '*生日', name: '范鹏程', year: '2001', date: '08-26',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '*生日', name: '程雅迪', year: '2003', date: '01-08',
+        //  type: '*生日', name: '程雅迪', year: '2003', date: '01-08',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2023', date: '01-06',
+        //  type: '节日', name: '相识纪念日', year: '2023', date: '01-06',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -51,13 +51,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'ESHt_I2rOp0TSYuKOmgP4BlDAB2KoltzH9_NZQ_e62o',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oQcPd6ulP46R4VRx4tJ5YLzK2rDo',
     }
   ],
 
